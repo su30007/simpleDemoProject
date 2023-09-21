@@ -1,12 +1,12 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from 'react'
+import { render } from 'react-dom'
 
-import List from './components/List/List';
+import List from './components/List/List'
 
 document.addEventListener('DOMContentLoaded', () => {
-  const reactNode = document.getElementById('app');
+  const reactNode = document.getElementById('app')
 
-  const testUnusedVariable = 'unused';
+  const testUnusedVariable = 'unused'
 
-  render(<List />, reactNode);
-});
+  render(<List />, reactNode)
+})

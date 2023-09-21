@@ -1,12 +1,12 @@
-import React from 'react';
-import { shallow } from 'enzyme';
+import React from 'react'
+import { shallow } from 'enzyme'
 
-import List from './List';
+import List from './List'
 
 describe('NewToDo', () => {
   it('renders', () => {
-    const list = shallow(<List />);
+    const list = shallow(<List />)
 
-    expect(list).toBeTruthy();
-  });
-});
+    expect(list).toBeTruthy()
+  })
+})
