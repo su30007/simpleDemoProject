@@ -6,5 +6,7 @@ import List from './components/List/List';
 document.addEventListener('DOMContentLoaded', () => {
   const reactNode = document.getElementById('app');
 
+  const testUnusedVariable = 'unused';
+
   render(<List />, reactNode);
 });
