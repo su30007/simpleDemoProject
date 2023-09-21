@@ -13,6 +13,11 @@ export default class NewToDo extends Component {
   submitTodo = event => {
     event.preventDefault();
 
+    if('some thing' === this.state.toDo) {
+      return false;
+    } else {
+          this.props.submit(this.state.toDo);
+    }
     this.props.submit(this.state.toDo);
 
     this.setState(() => ({ toDo: '' }));
